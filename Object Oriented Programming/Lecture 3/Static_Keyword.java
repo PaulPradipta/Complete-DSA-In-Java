@@ -1,7 +1,9 @@
 class Student {
+    // Static Variables
     static String canteenName;
     static String university;
 
+    // Static Block
     static {
         System.out.println("Static Block Invoked");
         canteenName = "Cafeteria";
@@ -9,6 +11,7 @@ class Student {
         greet();
     }
 
+    // Static Method
     static void greet() {
         System.out.println("Welcome to MAKAUT");
     }

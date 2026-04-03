@@ -14,6 +14,10 @@ class Vehicle{
         this.speed = v2.speed;
     }
 
+    void displayEmptyMessage() {
+        System.out.print("");
+    }
+
 }
 
 public class This_Method {
@@ -21,5 +25,8 @@ public class This_Method {
         Vehicle v1 = new Vehicle();
 
         Vehicle v2 = new Vehicle(v1);
+
+        v1.displayEmptyMessage();
+        v2.displayEmptyMessage();
     }
 }
