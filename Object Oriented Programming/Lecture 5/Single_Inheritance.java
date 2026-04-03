@@ -10,7 +10,7 @@ class Dog extends Animal {
         System.out.println("Dogs bark");
     }
 }
-public class Single_Level_Inheritance {
+public class Single_Inheritance {
     public static void main(String args[]) {
         Dog obj = new Dog();
         obj.eat();
