@@ -10,7 +10,6 @@ public class Try_Catch {
         }catch(Exception e) {
             System.out.println("Failed : " + e);
         }
-
         sc.close();
         return val;
     }
